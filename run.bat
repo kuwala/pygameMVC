@@ -1,0 +1,2 @@
+python hungryDuck.py
+pause
