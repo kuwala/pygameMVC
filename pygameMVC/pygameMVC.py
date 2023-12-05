@@ -164,7 +164,7 @@ class PygameView:
     pygame.init()
     # self.window is simmilar to screen
     self.window = pygame.display.set_mode( (424, 440) )
-    pygame.display.set_caption('Example Game')
+    pygame.display.set_caption('pygameMVC')
     self.background = pygame.Surface( self.window.get_size() )
     self.background.fill( (0,0,0) )
     font = pygame.font.Font(None, 30)

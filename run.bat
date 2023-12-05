@@ -1,2 +1,2 @@
-python hungryDuck.py
+python pygameMVC.py
 pause
