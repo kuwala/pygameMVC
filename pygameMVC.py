@@ -160,7 +160,7 @@ class PygameView:
   def __init__(self, evManager):
     self.evManager = evManager
     self.evManager.RegisterListener(self)
-    
+    # 
     pygame.init()
     # self.window is simmilar to screen
     self.window = pygame.display.set_mode( (424, 440) )
@@ -397,7 +397,10 @@ class Sector(object):
     self.evManager = evManager
     #self.evManager.RegisterListener( self )
 
-    self.neighbors = range(4)
+    self.neighbors = [range(4)]
+    for i in range(4):
+      self.neighbors.append( None )
+
 
     self.neighbors[DIRECTION_UP] = None
     self.neighbors[DIRECTION_DOWN] = None
