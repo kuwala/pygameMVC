@@ -9,5 +9,5 @@ poetry install
 
 ## to run game
 ```bash
-poetry run python ".\pygameMVC\pygameMVC.py"
+poetry run python "./pygamemvc/pygameMVC.py"
 ```
